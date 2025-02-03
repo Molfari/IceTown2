@@ -44,14 +44,14 @@
     </div>
   
 
-    <script src="./cocos-js/polyfills.bundle.js" charset="utf-8"></script>
-    <script src="./cocos-js/system.bundle.js" charset="utf-8"></script>
-    <script src="./cocos-js/import-map.json" type="systemjs-importmap" charset="utf-8"></script>
+    <script src="./src/polyfills.bundle.js" charset="utf-8"></script>
+    <script src="./src/system.bundle.js" charset="utf-8"></script>
+    <script src="./src/import-map.json" type="systemjs-importmap" charset="utf-8"></script>
 
 <script>
-    System.import('./cocos-js/index.js').catch(function(err) { 
-    console.error("❌ Помилка завантаження гри:", err); 
-});
+    System.import('./src/index.js').catch(function(err) { 
+        console.error("❌ Помилка завантаження гри:", err); 
+    });
 </script>
 
 </body>
